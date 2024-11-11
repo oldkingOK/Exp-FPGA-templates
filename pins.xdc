@@ -70,3 +70,5 @@ set_property -dict {PACKAGE_PIN E17	 IOSTANDARD LVCMOS33} [get_ports ]; # CE 数
 set_property -dict {PACKAGE_PIN C14	 IOSTANDARD LVCMOS33} [get_ports ]; # CF 数码管F段
 set_property -dict {PACKAGE_PIN C15	 IOSTANDARD LVCMOS33} [get_ports ]; # CG 数码管G段
 set_property -dict {PACKAGE_PIN E13	 IOSTANDARD LVCMOS33} [get_ports ]; # DP 数码管DP段
+set_property -dict { PACKAGE_PIN Y19 IOSTANDARD LVCMOS33 } [get_ports  uart_rx]; # UART接收端  
+set_property -dict { PACKAGE_PIN V18 IOSTANDARD LVCMOS33 } [get_ports  uart_tx]; # UART发送端
